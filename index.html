@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Сайт с иконкой и кнопками</title>
+    <title>Сайт с иконкой, кнопками и GIF</title>
     <link rel="icon" href="1.png" type="image/png"> <!-- Иконка на вкладке -->
     <style>
         body {
@@ -41,6 +41,11 @@
         .button:hover {
             background-color: #6C7A4E; /* Темный оттенок при наведении */
         }
+        img.gif {
+            width: 80%; /* Устанавливаем ширину GIF */
+            max-width: 800px; /* Максимальная ширина GIF */
+            margin-top: 20px; /* Отступ сверху */
+        }
     </style>
 </head>
 <body>
@@ -60,6 +65,9 @@
         <a href="https://mail.google.com/mail/u/0/?view=cm&fs=1&to=gumidari70@gmail.com&su=Жалоба&body=Введите%20ваше%20сообщение%20здесь..." target="_blank">
             <button class="button">Жалоба</button>
         </a>
+
+        <!-- GIF изображение -->
+        <img src="your_gif.gif" alt="GIF" class="gif"> <!-- Замените на имя вашего GIF файла -->
     </div>
 
 </body>
