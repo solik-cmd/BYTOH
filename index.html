@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сайт с иконкой и кнопками</title>
+    <link rel="icon" href="1.png" type="image/png"> <!-- Иконка на вкладке -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #86995A; /* Фон сайта на 5% темнее */
+            color: white; /* Цвет текста */
+        }
+        .header {
+            background-color: #86995A; /* Фон шапки на 5% темнее */
+            color: white; /* Цвет текста в шапке */
+            padding: 10px;
+            display: flex;
+            align-items: center;
+        }
+        .header img {
+            height: 80px; /* Увеличиваем размер иконки */
+            margin-right: 20px;
+        }
+        .content {
+            padding: 20px;
+            text-align: center;
+        }
+        .button {
+            padding: 10px 20px;
+            background-color: white; /* Цвет кнопки */
+            color: #86995A; /* Цвет текста на кнопке */
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+            border-radius: 5px;
+            margin: 10px; /* Отступ между кнопками */
+        }
+        .button:hover {
+            background-color: #6C7A4E; /* Темный оттенок при наведении */
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <img src="1.png" alt="Иконка">
+        <h1>Добро пожаловать на сайт!</h1>
+    </div>
+
+    <div class="content">
+        <!-- Кнопка для перехода на Mega -->
+        <a href="https://mega.nz/folder/1flCmTBZ#Tot4IV8Vo0fRaSPZjmXywg" target="_blank">
+            <button class="button">Скачать Minecraft 1.0</button>
+        </a>
+        
+        <!-- Кнопка для отправки жалобы через Gmail -->
+        <a href="https://mail.google.com/mail/u/0/?view=cm&fs=1&to=gumidari70@gmail.com&su=Жалоба&body=Введите%20ваше%20сообщение%20здесь..." target="_blank">
+            <button class="button">Жалоба</button>
+        </a>
+    </div>
+
+</body>
+</html>
